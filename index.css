@@ -1,0 +1,65 @@
+.text-igni {
+	color: #1FB9E5 !important;
+}
+
+.btn-igni {
+	color: white;
+	background: #1FB9E5;
+}
+
+.btn-igni:hover {
+	background: #22a3c8;
+}
+
+#header img {
+	width: 100px;
+}
+
+#main .carousel-inner img {
+	max-height: 70vh;
+	object-fit: cover;
+	filter: grayscale(70%);
+}
+
+#carousel {
+	position: relative;
+}
+
+#carousel .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+	height: 100%;
+}
+
+#place-time {
+	background: #1FB9E5;
+	color: white;
+}
+
+#place-time img {
+	max-width: 100%;
+}
+
+#footer {
+  background: rgba(113,88,247,1);
+  background: -moz-linear-gradient(-45deg, rgba(113,88,247,1) 0%, rgba(31,185,229,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(113,88,247,1)), color-stop(100%, rgba(31,185,229,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(113,88,247,1) 0%, rgba(31,185,229,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(113,88,247,1) 0%, rgba(31,185,229,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(113,88,247,1) 0%, rgba(31,185,229,1) 100%);
+  background: linear-gradient(135deg, rgba(113,88,247,1) 0%, rgba(31,185,229,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7158f7', endColorstr='#1fb9e5', GradientType=1 );
+}
+
+#footer a {
+	color: white;
+}
